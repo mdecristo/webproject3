@@ -6,13 +6,14 @@
         <title>Rome, Italy</title>
 
         <style>
-             body
-            max-width: 30em;
-                Margin: 0;
-                padding:25%
+            body {
+                Margin: 0% auto;
                 font-family: "Montserrat", san-serif;
+                max-width: 1000px;
                 }
-
+            main p:firt-of-type
+            
+            
                 header{
                 background:  url() no-repeat center center;
                 background-size: cover;
@@ -28,31 +29,69 @@
                 font-family: Georgia, serif;
                 color: white;
                 text-align: center;
+            }
 
-                }
                 h2{
             font-family: Georgia, serif;
-                    }
+            text-align: center;
+                    clear: both;
+                  }
 
 
-                img{
+            h3{
+                text-align: center;
+                margin-top: 1em;
+    
+            }
+
+            
+            p {
+                text-align: center;
+                clear: both;
+            }
+
+            .center-link {
+            text-align: center;
+
+            }
+            
+            img{
                     border: solid lavender 1em;
                    float: right;
-                    margin: 1em;
+                   margin: 1em 1em 2em 1em;
                 }
+            
+            .intro-photo img{
+            float: none;
+            display: block;
+            margin:0 auto 1.5em auto;
+            }
+            
+            
+            br{
+                clear:both;
+            }
+            ul li{
+                list-style-position: inside;
+                text-align: center;
+            }
                 footer{
                     text-align: center;
                 }
         </style>
     </head>
+    
     <body>
         <header>
             <h1>Rome, Italy</h1>
-            <img src="Picture1.jpg" alt="Bottega Roma" width="400px" />
+            <div class="intro-photo">
+                <img src="Picture1.jpg" alt="Bottega Roma" width="400">
+            </div>
         </header>
 
-        <main>
+            <main>
             <h2>Intro</h2>
+
             <p>
                 Rome offers a rich mix of ancient history, art, and lively culture. Highlights like the Vatican,
                 Pantheon, Trevi Fountain, and Via Giulia make it a favorite spot for visitors
@@ -66,55 +105,72 @@
                 <li>Trevi Fountain</li>
             </ul>
             <section>
+                
+    
                 <h2>Patheon</h2>
                 <p>
                     The Pantheon in Rome symbolizes Italian culture and history, showcasing ancient engineering and
                     enduring as a place of worship through the centuries.
-                    <img src="Patheon-a.jpg" alt="Panthon" width="300px" />
+                    <img src="Patheon-a.jpg" alt="Panthon" width="300">
                 </p>
             </section>
-
-            <a
-                href="https://www.lonelyplanet.com/italy/rome/centro-storico/attractions/pantheon/a/poi-sig/389093/1321003"
-                target="_blank"
-                >Lonely Planet, Pantheon</a
-            >
-
+            <div class="center-link">
+                <a
+                    href="https://www.lonelyplanet.com/italy/rome/centro-storico/attractions/pantheon/a/poi-sig/389093/1321003"
+                    target="_blank"
+                    >Lonely Planet, Pantheon</a
+                >
+            </div>
+<section>
             <h2>Via Giulia</h2>
-            <img src="Via%20Giulia.jpg" alt="Via Giulia" width="300px" />
+           
             <p>
                 Via Giulia is one of Rome’s most charming historic streets. It offers a peaceful walk lined with
                 beautiful buildings, ivy-covered walls, churches, and art studios.
             </p>
-            <a
-                href="https://www.lonelyplanet.com/italy/rome/centro-storico/attractions/via-giulia/a/poi-sig/389891/1321003"
-                target="_blank"
-                >Lonely Planet, Via Giulia</a
-            >
-
+     <img src="Via%20Giulia.jpg" alt="Via Giulia" width="300">
+            <div class="center-link">
+                <a
+                    href="https://www.lonelyplanet.com/italy/rome/centro-storico/attractions/via-giulia/a/poi-sig/389891/1321003"
+                    target="_blank"
+                    >Lonely Planet, Via Giulia</a
+                >
+            </div>
+            </section>
+            
+            <section>
             <h2>Vatican City</h2>
             <p>
                 The Hall of Maps in Vatican City displays beautifully detailed 16th-century frescoes of Italy’s regions,
                 blending art and history in a breathtaking gallery.
             </p>
-            <a
-                href="https://classroom.ricksteves.com/videos/the-vatican-city-a-tiny-country-with-a-billion-citizens"
-                target="_blank"
-                >Rick Steve's Classroom, Vatican City</a
-            >
-            <img src="Vatican-city-a.JPG" alt="Vatican City" width="300px" />
-            <img src="Vatican-city-b.JPG" alt="Vatican City, Hall of Maps" width="300px" />
-
+            <div class="center-link">
+                <a
+                    href="https://classroom.ricksteves.com/videos/the-vatican-city-a-tiny-country-with-a-billion-citizens"
+                    target="_blank"
+                    >Rick Steve's Classroom, Vatican City</a
+                >
+            </div>
+    
+            <img src="Vatican-city-a.JPG" alt="Vatican City" width="300">
+            <img src="Vatican-city-b.JPG" alt="Vatican City, Hall of Maps" width="300">
+            </section>
+            
+            <section>
             <h2>Trevi Fountain</h2>
             <p>
                 The Trevi Fountain in Rome is a beautiful Baroque masterpiece and famous spot where people toss coins to
                 make a wish to come back again.
             </p>
-            <a href="https://www.goaheadtours.com/travel-blog/articles/trevi-fountain-travel-guide" target="_blank"
-                >Go Ahead Tours, Trevi Fountain</a
-            >
-            <img src="Trevi-fountain-b.JPEG" alt="Trevi Fountain" width="300px" />
+            <div class="center-link">
+                <a href="https://www.goaheadtours.com/travel-blog/articles/trevi-fountain-travel-guide" target="_blank"
+                    >Go Ahead Tours, Trevi Fountain</a
+                >
+            </div>
+            <img src="Trevi-fountain-b.JPEG" alt="Trevi Fountain" width="300">
+            </section>
         </main>
+        <br>
 
         <h3>Citations</h3>
         <p>
@@ -122,6 +178,8 @@
             full ownership.
         </p>
 
-        <footer><p>&copy Michelle DeCristofaro, 2025</p></footer>
+        <footer>
+            <p>&copy; Michelle DeCristofaro, 2025</p>
+        </footer>
     </body>
 </html>
